@@ -19,7 +19,7 @@ for filename in os.listdir(moduledirold):
                 charnumber = charnumber+1
                 # Do the Magic and search for '--' and save newline with everything behind the --
                 if content[linenumber[0]-1][charnumber] == '-' and content[linenumber[0]-1][charnumber+1] == '-':
-                    newline = (content[linenumber[0]-1][:(charnumber)]+'\n')
+                    newline = (content[linenumber[0]-1][23:(charnumber)]+'\n')
                     break 
             # Now change the file content Title with the newline 
             content[linenumber[0]-1] = newline
