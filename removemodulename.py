@@ -2,8 +2,8 @@ import os
 
 # Initial facts
 charnumber = 0
-moduledirold = 'source/modules/'
-moduledirnew = 'source/modules2/'
+moduledirold = 'docs/source/modules/'
+moduledirnew = 'docs/source/modules2/'
 
 
 
