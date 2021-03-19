@@ -10,7 +10,7 @@ moduledirnew = 'docs/source/modules2/'
 
 for filename in os.listdir(moduledirold):
     # Exclude index.rst as it has not the issue
-    if filename != 'index.rst':
+    if filename != 'index.rst' and filename != '.keep':
         with open((moduledirold+filename), 'r') as rstfile:
             content = rstfile.readlines()
             # Search for the line below the Title Name through '+++'
